@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fabi.escuelaapp.agregarAlumnos">
+
+    <TextView
+        android:id="@+id/txtAgregar"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Agregar Alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="textPersonName|textCapSentences|textAutoCorrect|textAutoComplete"
+        android:id="@+id/edtNombreAgregar"
+        android:textAlignment="center"
+        android:hint="Nombre"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/txtAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtNick"
+        android:textAlignment="center"
+        android:hint="Nick"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtNombreAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtNick"
+        android:textAlignment="center"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAgregar"
+        android:text="Agregar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fabi.escuelaapp.agregarMaterias">
+
+    <TextView
+        android:id="@+id/agregarMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Materias"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtNombreMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agregarMaterias"
+        android:layout_marginTop="50dp"
+        android:hint="Nombre"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/ClaveMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNombreMateria"
+        android:layout_marginTop="20dp"
+        android:hint="Clave"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnAgregarMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Agregar" />
+
+
+</RelativeLayout>
